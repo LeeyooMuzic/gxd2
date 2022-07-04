@@ -434,10 +434,10 @@ async def skip(_, message: Message):
         queues.task_done(chat_id)
         
         if queues.is_empty(chat_id):
-            await message.reply_text("**🥀 𝑸𝒖𝒆𝒖𝒆 𝑬𝒎𝒑𝒕𝒚, 𝑳𝒆𝒂𝒗𝒊𝒏𝒈 𝑽𝑪 ✨ ...**") 
+            await message.reply_text("**😒 𝗤𝘂𝗲𝘂𝗲 𝗘𝗺𝗽𝘁𝘆. 𝗟𝗲𝗮𝘃𝗶𝗻𝗴 𝗩𝗰 👻 ...**") 
             await clientbot.pytgcalls.leave_group_call(chat_id)
         else:
-            await message.reply_text("**⏩ 𝐒𝐤𝐢𝐩𝐩𝐞𝐝 🌷 ...**") 
+            await message.reply_text("**⏩ 𝗦𝗸𝗶𝗽𝗽𝗲𝗱 😒 ...**") 
             await clientbot.pytgcalls.change_stream(
                 chat_id, 
                 InputStream(
@@ -460,7 +460,7 @@ async def stop(_, message: Message):
         pass
 
     await clientbot.pytgcalls.leave_group_call(message.chat.id)
-    await message.reply_text("**❌ 𝐒𝐭𝐨𝐩𝐩𝐞𝐝 🌷 ...**"
+    await message.reply_text("**❌ 𝗦𝘁𝗼𝗽𝗽𝗲𝗱 😏 ...**"
     )
 
 
@@ -475,4 +475,4 @@ async def update_admin(client, message):
     for u in new_ads:
         new_admins.append(u.user.id)
     a[message.chat.id] = new_admins
-    await message.reply_text("**🔥 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🌷 ...**")
+    await message.reply_text("** ✌️ 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🐷 ...**")

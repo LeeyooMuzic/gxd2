@@ -30,7 +30,7 @@ from pytgcalls import StreamType
 from pytgcalls.types.input_stream import InputStream
 from pytgcalls.types.input_stream import InputAudioStream
 
-# 𝑰𝒏𝒕𝒆𝒓𝒏𝒂𝒍 𝑴𝒐𝒅𝒖𝒍𝒆𝒔
+# 𝗜𝗻𝘁𝗲𝗿𝗻𝗮𝗹 𝗠𝗼𝗱𝘂𝗹𝗲𝘀
 chat_id = None
 useer = "NaN"
 
@@ -53,7 +53,7 @@ def transcode(filename):
     os.remove(filename)
 
 
-# 𝑪𝒐𝒏𝒗𝒆𝒓𝒕 𝑺𝒆𝒄𝒐𝒏𝒅𝒔 𝑻𝒐 𝒎𝒎:𝒔𝒔
+# 𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝗦𝗲𝗰𝗼𝗻𝗱𝘀 𝗧𝗼 𝗺𝗺:𝘀𝘀
 def convert_seconds(seconds):
     seconds = seconds % (24 * 3600)
     seconds %= 3600
@@ -62,13 +62,13 @@ def convert_seconds(seconds):
     return "%02d:%02d" % (minutes, seconds)
 
 
-# 𝑪𝒐𝒏𝒗𝒆𝒓𝒕 𝒉𝒉:𝒎𝒎:𝒔𝒔 𝑻𝒐 𝑺𝒆𝒄𝒐𝒏𝒅𝒔
+# 𝗖𝗼𝗻𝘃𝗲𝗿𝘁 𝗵𝗵:𝗺𝗺 𝗧𝗼 𝗦𝗲𝗰𝗼𝗻𝗱𝘀
 def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60 ** i for i, x in enumerate(reversed(stringt.split(":"))))
 
 
-# 𝑪𝒉𝒂𝒏𝒈𝒆 𝑻𝒉𝒖𝒎𝒃𝒏𝒂𝒊𝒍 𝑺𝒊𝒛𝒆
+# 𝗖𝗵𝗮𝗻𝗴𝗲 𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹 𝗦𝗶𝘇𝗲
 def changeImageSize(maxWidth, maxHeight, image):
     widthRatio = maxWidth / image.size[0]
     heightRatio = maxHeight / image.size[1]
@@ -76,7 +76,7 @@ def changeImageSize(maxWidth, maxHeight, image):
     newHeight = int(heightRatio * image.size[1])
     return image.resize((newWidth, newHeight))
 
-# 𝑮𝒆𝒏𝒆𝒓𝒂𝒕𝒆 𝑻𝒉𝒖𝒎𝒃𝒏𝒂𝒊𝒍
+# 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲 𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹
 async def generate_cover(requested_by, title, views, duration, thumbnail):
     async with aiohttp.ClientSession() as session:
         async with session.get(thumbnail) as resp:
@@ -101,7 +101,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     draw.text((190, 630), f"Views: {views}", (255, 255, 255), font=font)
     draw.text(
         (190, 670),
-        f"Powered By: Bikash & Aditya Halder (@BikashHalder @AdityaHalder)",
+        f"Powered By: G-Network (@Groot_Network @mynameisgroot)",
         (255, 255, 255),
         font=font,
     )
@@ -121,7 +121,7 @@ async def play(_, message: Message):
     global que
     global useer
     await message.delete()
-    lel = await message.reply("**🔎 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠 ...**")
+    lel = await message.reply("**🔎 𝗦𝗲𝗮𝗿𝗰𝗵𝗶𝗻𝗴 ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -141,24 +141,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**💥 𝐀𝐭🤞𝐅𝐢𝐫𝐬𝐭 🥀 𝐌𝐚𝐤𝐞 ♥️ 𝐌𝐞 ⭐ 𝐀𝐝𝐦𝐢𝐧 😎 ...**")
+                        "**😇 𝗔𝘁🤞𝗙𝗶𝗿𝘀𝘁 🥀 𝗠𝗮𝗸𝗲 𝗠𝗲 ⭐ 𝗔𝗱𝗺𝗶𝗻 😎 ...**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 😎 𝐈🤞𝐚𝐦 🥀 𝐑𝐞𝐚𝐝𝐲 ♥️ 𝐓𝐨 ⭐ 𝐏𝐥𝐚𝐲 😎 ... 𝐔𝐬𝐞 📢 /play, .play, bgt, !play, play, @, #, $ **")
+                        message.chat.id, "** 😎 𝗜𝗮𝗺 🥀 𝗥𝗲𝗮𝗱𝘆 ♥️ 𝗧𝗼 ⭐ 𝗣𝗹𝗮𝘆 😎 ... 𝗨𝘀𝗲 📢 /play, .play, bgt, !play, play, @, #, $ **")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🥀 𝐏𝐥𝐞𝐚𝐬𝐞 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🌺 𝐀𝐝𝐝 𝐁𝐠𝐭 [𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭](t.me/{ASSISTANT_USERNAME}) 🎸 𝐢𝐧 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩 ♥️ 𝐎𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 [𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ](https://t.me/{OWNER_USERNAME}) ✨ **")
+                        f"**🥀 𝗣𝗹𝗲𝗮𝘀𝗲 𝗠𝗮𝗻𝘂𝗮𝗹𝗹𝘆 🌺 𝗔𝗱𝗱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 [𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁](t.me/{ASSISTANT_USERNAME}) 🎸 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 ♥️ 𝗢𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗧𝗼 [𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 ](https://t.me/{OWNER_USERNAME}) ✨ **")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🥀 𝐏𝐥𝐞𝐚𝐬𝐞 𝐌𝐚𝐧𝐮𝐚𝐥𝐥𝐲 🌺 𝐀𝐝𝐝 𝐁𝐠𝐭 [𝐀𝐬𝐬𝐢𝐬𝐭𝐚𝐧𝐭](t.me/{ASSISTANT_USERNAME}) 🎸 𝐢𝐧 𝐓𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩 ♥️ 𝐎𝐫 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 𝐓𝐨 [𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 ](https://t.me/{OWNER_USERNAME}) ✨ **")
+            f"**🥀 𝗣𝗹𝗲𝗮𝘀𝗲 𝗠𝗮𝗻𝘂𝗮𝗹𝗹𝘆 🌺 𝗔𝗱𝗱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 [𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁](t.me/{ASSISTANT_USERNAME}) 🎸 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 ♥️ 𝗢𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗧𝗼 [𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 ](https://t.me/{OWNER_USERNAME}) ✨ **")
         return
     
     audio = (
@@ -171,7 +171,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**💥 𝐏𝐥𝐚𝐲 🔊 𝐌𝐮𝐬𝐢𝐜 💿 𝐋𝐞𝐬𝐬 ⚡️\n🤟 𝐓𝐡𝐚𝐧⚡️ {DURATION_LIMIT} 💞 𝐌𝐢𝐧𝐮𝐭𝐞 ...**"
+                f"**😊 𝗣𝗹𝗮𝘆 🔊 𝗠𝘂𝘀𝗶𝗰 💿 𝗟𝗲𝘀𝘀 ⚡️\n🤟 𝗧𝗵𝗮𝗻⚡️ {DURATION_LIMIT} 💞 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
             )
 
         file_name = get_file_name(audio)

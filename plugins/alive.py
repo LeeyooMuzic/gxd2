@@ -39,10 +39,10 @@ async def start_(client: Client, message: Message):
 😇 𝗛𝗲𝗹𝗹𝗼. 𝗜𝗮𝗺 𝗦𝘂𝗽𝗲𝗿𝗳𝗮𝘀𝘁 𝗛𝗶𝗴𝗵 𝗤𝘂𝗮𝗹𝗶𝘁𝘆
  𝗡𝗼 𝗟𝗮𝗴 𝗩𝗖 𝗠𝘂𝘀𝗶𝗰 𝗣𝗹𝗮𝘆𝗲𝗿 𝗕𝗼𝘁.
 
-┣❥︎🧡𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗣𝗮𝗰𝗸𝘀  ➽ [𝗚𝗿𝗼𝗼𝘁 𝗣𝗮𝗰𝗸𝘀](https://t.me/groot_network)
-┣❥︎💚𝗙𝘂𝗻𝗻𝘆 𝗚𝗶𝗳𝘀    ➽ [𝗚𝗿𝗼𝗼𝘁 𝗡𝗲𝘁𝘄𝗼𝗿𝗸] (https://t.me/RJbr0)
-┣❥︎💜𝗧𝗲𝗹𝘂𝗴𝘂 𝗚𝗿𝗼𝘂𝗽𝘀 ➽ [𝗠𝘆 𝗟𝗶𝘁𝘁𝗹𝗲 𝘄𝗼𝗿𝗹𝗱](https://t.me/telugulittleworld)
-┣❥︎💙𝗢𝘄𝗻𝗲𝗿        ➽ [𝗜𝗮𝗺 𝗚𝗿𝗼𝗼𝘁](https://t.me/mynameisgroot)
+🧡𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗣𝗮𝗰𝗸𝘀  ➽ [𝗚𝗿𝗼𝗼𝘁 𝗣𝗮𝗰𝗸𝘀](https://t.me/groot_network)
+💚𝗙𝘂𝗻𝗻𝘆 𝗚𝗶𝗳𝘀    ➽ [𝗚𝗿𝗼𝗼𝘁 𝗡𝗲𝘁𝘄𝗼𝗿𝗸](https://t.me/RJbr0)
+💜𝗧𝗲𝗹𝘂𝗴𝘂 𝗚𝗿𝗼𝘂𝗽𝘀 ➽ [𝗠𝘆 𝗟𝗶𝘁𝘁𝗹𝗲 𝘄𝗼𝗿𝗹𝗱](https://t.me/telugulittleworld)
+💙𝗢𝘄𝗻𝗲𝗿        ➽ [𝗜𝗮𝗺 𝗚𝗿𝗼𝗼𝘁](https://t.me/mynameisgroot)
 
 😒 𝗝𝘂𝘀𝘁 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝗮𝗻𝗱 
 𝗘𝗻𝗷𝗼𝘆 𝗦𝘂𝗽𝗲𝗿 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗠𝘂𝘀𝗶𝗰.**""",

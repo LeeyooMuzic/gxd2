@@ -8,4 +8,4 @@ from modules.config import API_ID, API_HASH, BOT_TOKEN
 bot.start()
 run()
 idle()
-print("🥀 𝑩𝒈𝒕 𝑴𝒖𝒔𝒊𝒄 𝑩𝒐𝒕 𝑺𝒕𝒂𝒓𝒕𝒆𝒅 ✨ ...")
+print("🌱 ɢ-ɴᴇᴛᴡᴏʀᴋ ᴍᴜsɪᴄ ʙᴏᴛ sᴛᴀʀᴛᴇᴅ 👻...")

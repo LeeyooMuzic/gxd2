@@ -185,22 +185,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🥀 ♕︎𝐎𝐰𝐧𝐞𝐫♕︎ 🕊️",
+                            text="🌱 𝗢𝘄𝗻𝗲𝗿 😇",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
                [
                     InlineKeyboardButton(
-                            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
+                            text="🌱 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 😌",
                             url=f"{UPDATES_CHANNEL}"),
                             
                     InlineKeyboardButton(
-                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
+                            text="🌱 𝗚𝗿𝗼𝘂𝗽 🤨",
                             url=f"{SUPPORT_GROUP}")
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 🇧𝐆𝐓 🌺",
-                            url=f"https://t.me/Bgt_Chat")
+                            text="🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 😎",
+                            url=f"https://t.me/rjbr0")
                    
                 ]
             ]
@@ -238,22 +238,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🥀 ♕︎𝐎𝐰𝐧𝐞𝐫♕︎ 🕊️",
+                            text="🌱 𝗢𝘄𝗻𝗲𝗿 😇",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
                [
                     InlineKeyboardButton(
-                            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
+                            text="🌱 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 😌",
                             url=f"{UPDATES_CHANNEL}"),
                             
                     InlineKeyboardButton(
-                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
+                            text="🌱 𝗚𝗿𝗼𝘂𝗽 🤨",
                             url=f"{SUPPORT_GROUP}")
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 🇧𝐆𝐓 🇨𝐇𝐀𝐍𝐍𝐄𝐋 🌺",
-                            url=f"https://t.me/BikashGedgetsTech")
+                            text="🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 😎",
+                            url=f"https://t.me/rjbr0")
                    
                 ]
             ]
@@ -268,22 +268,22 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🥀 ♕︎𝐎𝐰𝐧𝐞𝐫♕︎ 🕊️",
+                            text="🌱 𝗢𝘄𝗻𝗲𝗿 😇",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
                [
                     InlineKeyboardButton(
-                            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
+                            text="🌱 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 😌",
                             url=f"{UPDATES_CHANNEL}"),
                             
                     InlineKeyboardButton(
-                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
+                            text="🌱 𝗚𝗿𝗼𝘂𝗽 🤨",
                             url=f"{SUPPORT_GROUP}")
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
-                            url=f"https://t.me/kaalxd")
+                            text="🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 😎",
+                            url=f"https://t.me/rjbr0")
                    
                 ]
             ]
@@ -291,7 +291,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 𝐏𝐥𝐚𝐲 🔊 𝐌𝐮𝐬𝐢𝐜 💿 𝐋𝐞𝐬𝐬 ⚡️\n🤟 𝐓𝐡𝐚𝐧⚡️ {DURATION_LIMIT} 💞 𝐌𝐢𝐧𝐮𝐭𝐞 ...**"
+                f"**🌱 𝗣𝗹𝗮𝘆 🔊 𝗠𝘂𝘀𝗶𝗰 💿 𝗟𝗲𝘀𝘀 ⚡️\n🤟 𝗧𝗵𝗮𝗻⚡️ {DURATION_LIMIT} 💞 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -300,9 +300,9 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**🤖 𝐆𝐢𝐯𝐞 🙃 𝐌𝐮𝐬𝐢𝐜 💿 𝐍𝐚𝐦𝐞 😍\n💞 𝐓𝐨 🔊 𝐏𝐥𝐚𝐲 🥀 𝐒𝐨𝐧𝐠 🌷...**"
+                "**🤖 𝗚𝗶𝘃𝗲 🙃 𝗠𝘂𝘀𝗶𝗰 💿 𝗡𝗮𝗺𝗲 😍\n💞 𝗧𝗼 🔊 𝗣𝗹𝗮𝘆 🥀 𝗦𝗼𝗻𝗴 🌷...**"
             )
-        await lel.edit("**🔄 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 ...**")
+        await lel.edit("**🔄 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 ...**")
         query = message.text.split(None, 1)[1]
         # print(query)
         try:
@@ -327,7 +327,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🔊 𝐌𝐮𝐬𝐢𝐜 😕 𝐍𝐨𝐭 📵 𝐅𝐨𝐮𝐧𝐝❗️\n💞 𝐓𝐫𝐲 ♨️ 𝐀𝐧𝐨𝐭𝐡𝐞𝐫 🌷...**"
+                "**🔊 𝗠𝘂𝘀𝗶𝗰 𝗡𝗼𝘁 📵 𝗙𝗼𝘂𝗻𝗱❗️\n💞 𝗧𝗿𝘆 ♨️ 𝗔𝗻𝗼𝘁𝗵𝗲𝗿 🌷...**"
             )
             print(str(e))
             return
@@ -336,21 +336,21 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="🥀 ♕︎𝐎𝐰𝐧𝐞𝐫♕︎ 🕊️",
+                            text="🌱 𝗢𝘄𝗻𝗲𝗿 😇",
                             url=f"https://t.me/{OWNER_USERNAME}")
                ],
                [
                     InlineKeyboardButton(
-                            text="📡 𝐔𝐩𝐝𝐚𝐭𝐞𝐬",
+                            text="🌱 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 😌",
                             url=f"{UPDATES_CHANNEL}"),
                             
                     InlineKeyboardButton(
-                            text="𝐒𝐮𝐩𝐩𝐨𝐫𝐭 💬",
+                            text="🌱 𝗚𝗿𝗼𝘂𝗽 🤨",
                             url=f"{SUPPORT_GROUP}")
                ],
                [
                         InlineKeyboardButton(
-                            text="😎 𝐅𝐞𝐞𝐋𝐢𝐧𝐠'𝐒 🌺",
+                            text="🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 😎",
                             url=f"{PROFILE_CHANNEL}")
                    
                 ]
@@ -359,7 +359,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**💥 𝐏𝐥𝐚𝐲 🔊 𝐌𝐮𝐬𝐢𝐜 💿 𝐋𝐞𝐬𝐬 ⚡️\n🤟 𝐓𝐡𝐚𝐧⚡️ {DURATION_LIMIT} 💞 𝐌𝐢𝐧𝐮𝐭𝐞 ...**"
+                f"**🌱 𝗣𝗹𝗮𝘆 🔊 𝗠𝘂𝘀𝗶𝗰 💿 𝗟𝗲𝘀𝘀 ⚡️\n🤟 𝗧𝗵𝗮𝗻⚡️ {DURATION_LIMIT} 💞 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -373,7 +373,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**💥 𝐘𝐨𝐮𝐫 🥀 𝐒𝐨𝐧𝐠 💿 𝐐𝐮𝐞𝐮𝐞𝐝❗️\n🔊 𝐀𝐭 💞 𝐏𝐨𝐬𝐢𝐭𝐢𝐨𝐧 » `{}` 🌷 ...**".format(position),
+            caption="**😒 𝗬𝗼𝘂𝗿 🥀 𝗦𝗼𝗻𝗴 💿 𝗤𝘂𝗲𝘂𝗲𝗱❗️\n🔊 𝗔𝘁 💞 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -390,7 +390,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**💥 𝐁𝐠𝐭 𝐌𝐮𝐬𝐢𝐜 🌺 𝐑𝐨𝐛𝐨𝐭 🎸 𝐍𝐨𝐰 💞\n🔊 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 😍 𝐎𝐏 🥀 ...**".format(),
+            caption="**🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗠𝘂𝘀𝗶𝗰 𝗥𝗼𝗯𝗼𝘁 🎸 𝗡𝗼𝘄 💞\n🔊 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗞𝗰𝗽𝗱 🥀 ...**".format(),
            )
 
     os.remove("final.png")
@@ -403,7 +403,7 @@ async def play(_, message: Message):
 async def pause(_, message: Message):
     await message.delete()
     await clientbot.pytgcalls.pause_stream(message.chat.id)
-    await message.reply_text("**▶️ 𝐏𝐚𝐮𝐬𝐞𝐝 🌷 ...**"
+    await message.reply_text("**▶️ 𝗣𝗮𝘂𝘀𝗲𝗱 😒 ...**"
     )
 
 
@@ -413,7 +413,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await message.delete()
     await clientbot.pytgcalls.resume_stream(message.chat.id)
-    await message.reply_text("**⏸ 𝐑𝐞𝐬𝐮𝐦𝐞𝐝 🌷 ...**"
+    await message.reply_text("**⏸ 𝗥𝗲𝘀𝘂𝗺𝗲𝗱 😊 ...**"
     )
 
 
@@ -429,7 +429,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**💥 𝐁𝐠𝐭 𝐑𝐨𝐛𝐨𝐭 💞 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 🔇\n🚫 𝐏𝐥𝐚𝐲𝐢𝐧𝐠 🌷 ...**")
+        await message.reply_text("**🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗥𝗼𝗯𝗼𝘁 😒 𝗡𝗼𝘁𝗵𝗶𝗻𝗴 🔇\n🚫 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 😐 ...**")
     else:
         queues.task_done(chat_id)
         

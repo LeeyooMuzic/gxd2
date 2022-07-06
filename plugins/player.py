@@ -179,7 +179,7 @@ async def play(_, message: Message):
         thumb_name = "https://te.legra.ph/file/700b6db739b57216a771d.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
-        views = "Locally added"https://te.legra.ph/file/700b6db739b57216a771d.jpg
+        views = "Locally added"https://te.legra.ph/file/700b6db739b57216a771d.jpg"
 
         keyboard = InlineKeyboardMarkup(
             [

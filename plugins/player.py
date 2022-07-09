@@ -141,24 +141,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "**😇 𝗔𝘁🤞𝗙𝗶𝗿𝘀𝘁 🥀 𝗠𝗮𝗸𝗲 𝗠𝗲 ⭐ 𝗔𝗱𝗺𝗶𝗻 😎 ...**")
+                        "**😇 𝗔𝘁 𝗙𝗶𝗿𝘀𝘁 𝗠𝗮𝗸𝗲 𝗠𝗲 𝗔𝗱𝗺𝗶𝗻 😎 ...**")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 😎 𝗜𝗮𝗺 🥀 𝗥𝗲𝗮𝗱𝘆 ♥️ 𝗧𝗼 ⭐ 𝗣𝗹𝗮𝘆 😎 ... 𝗨𝘀𝗲 📢 /play, .play, bgt, !play, play, @, #, $ **")
+                        message.chat.id, "** 😎 𝗜𝗮𝗺 𝗥𝗲𝗮𝗱𝘆 𝗧𝗼 𝗣𝗹𝗮𝘆 😎 ... 𝗨𝘀𝗲 📢 /play, .play, !play, play, @, #, $ **")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🥀 𝗣𝗹𝗲𝗮𝘀𝗲 𝗠𝗮𝗻𝘂𝗮𝗹𝗹𝘆 🌺 𝗔𝗱𝗱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 [𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁](t.me/{ASSISTANT_USERNAME}) 🎸 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 ♥️ 𝗢𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗧𝗼 [𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 ](https://t.me/{OWNER_USERNAME}) ✨ **")
+                        f"**🥀 𝗣𝗹𝗲𝗮𝘀𝗲 𝗠𝗮𝗻𝘂𝗮𝗹𝗹𝘆 𝗔𝗱𝗱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 [𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁](t.me/{ASSISTANT_USERNAME}) 🎸 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 𝗢𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗧𝗼 [𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 ](https://t.me/{OWNER_USERNAME}) ✨ **")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🥀 𝗣𝗹𝗲𝗮𝘀𝗲 𝗠𝗮𝗻𝘂𝗮𝗹𝗹𝘆 🌺 𝗔𝗱𝗱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 [𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁](t.me/{ASSISTANT_USERNAME}) 🎸 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 ♥️ 𝗢𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗧𝗼 [𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 ](https://t.me/{OWNER_USERNAME}) ✨ **")
+            f"**🥀 𝗣𝗹𝗲𝗮𝘀𝗲 𝗠𝗮𝗻𝘂𝗮𝗹𝗹𝘆 𝗔𝗱𝗱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 [𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁](t.me/{ASSISTANT_USERNAME}) 🎸 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 𝗢𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗧𝗼 [𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 ](https://t.me/{OWNER_USERNAME}) ✨ **")
         return
     
     audio = (
@@ -171,7 +171,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**😊 𝗣𝗹𝗮𝘆 🔊 𝗠𝘂𝘀𝗶𝗰 💿 𝗟𝗲𝘀𝘀 ⚡️\n🤟 𝗧𝗵𝗮𝗻⚡️ {DURATION_LIMIT} 💞 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
+                f"**😊 𝗣𝗹𝗮𝘆 𝗠𝘂𝘀𝗶𝗰 𝗟𝗲𝘀𝘀🌱\n𝗧𝗵𝗮𝗻{DURATION_LIMIT} 💞 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
             )
 
         file_name = get_file_name(audio)
@@ -291,7 +291,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**🌱 𝗣𝗹𝗮𝘆 🔊 𝗠𝘂𝘀𝗶𝗰 💿 𝗟𝗲𝘀𝘀 ⚡️\n🤟 𝗧𝗵𝗮𝗻⚡️ {DURATION_LIMIT} 💞 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
+                f"**🌱 𝗣𝗹𝗮𝘆 𝗠𝘂𝘀𝗶𝗰 𝗟𝗲𝘀𝘀 😏\n 𝗧𝗵𝗮𝗻 {DURATION_LIMIT} 💞 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -300,7 +300,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**🤖 𝗚𝗶𝘃𝗲 🙃 𝗠𝘂𝘀𝗶𝗰 💿 𝗡𝗮𝗺𝗲 😍\n💞 𝗧𝗼 🔊 𝗣𝗹𝗮𝘆 🥀 𝗦𝗼𝗻𝗴 🌷...**"
+                "**😒 𝗚𝗶𝘃𝗲 𝗠𝘂𝘀𝗶𝗰 𝗡𝗮𝗺𝗲 😍\n💞 𝗧𝗼 𝗣𝗹𝗮𝘆 𝗦𝗼𝗻𝗴 🌷...**"
             )
         await lel.edit("**🔄 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 ...**")
         query = message.text.split(None, 1)[1]
@@ -327,7 +327,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "**🔊 𝗠𝘂𝘀𝗶𝗰 𝗡𝗼𝘁 📵 𝗙𝗼𝘂𝗻𝗱❗️\n💞 𝗧𝗿𝘆 ♨️ 𝗔𝗻𝗼𝘁𝗵𝗲𝗿 🌷...**"
+                "**🔊 𝗠𝘂𝘀𝗶𝗰 𝗡𝗼𝘁 📵 𝗙𝗼𝘂𝗻𝗱❗️\n𝗧𝗿𝘆 𝗔𝗻𝗼𝘁𝗵𝗲𝗿 🌷...**"
             )
             print(str(e))
             return
@@ -359,7 +359,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**🌱 𝗣𝗹𝗮𝘆 🔊 𝗠𝘂𝘀𝗶𝗰 💿 𝗟𝗲𝘀𝘀 ⚡️\n🤟 𝗧𝗵𝗮𝗻⚡️ {DURATION_LIMIT} 💞 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
+                f"**🌱 𝗣𝗹𝗮𝘆 𝗠𝘂𝘀𝗶𝗰 𝗟𝗲𝘀𝘀 \n🤟 𝗧𝗵𝗮𝗻⚡️ {DURATION_LIMIT} 💞 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -373,7 +373,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**😒 𝗬𝗼𝘂𝗿 🥀 𝗦𝗼𝗻𝗴 💿 𝗤𝘂𝗲𝘂𝗲𝗱❗️\n🔊 𝗔𝘁 💞 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 » `{}` 🌷 ...**".format(position),
+            caption="**😒 𝗬𝗼𝘂𝗿 𝗦𝗼𝗻𝗴 𝗤𝘂𝗲𝘂𝗲𝗱❗️\n𝗔𝘁 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 » `{}` 🌷 ...**".format(position),
             reply_markup=keyboard,
         )
     else:
@@ -390,7 +390,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗠𝘂𝘀𝗶𝗰 𝗥𝗼𝗯𝗼𝘁 🎸 𝗡𝗼𝘄 💞\n🔊 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗢𝗽 🥀 ...**".format(),
+            caption="**🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗠𝘂𝘀𝗶𝗰 𝗥𝗼𝗯𝗼𝘁 𝗡𝗼𝘄 💞\n🔊 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗢𝗽 🥀 ...**".format(),
            )
 
     os.remove("final.png")
@@ -429,7 +429,7 @@ async def skip(_, message: Message):
     for x in clientbot.pytgcalls.active_calls:
         ACTV_CALLS.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALLS:
-        await message.reply_text("**🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗥𝗼𝗯𝗼𝘁 😒 𝗡𝗼𝘁𝗵𝗶𝗻𝗴 🔇\n🚫 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 😐 ...**")
+        await message.reply_text("**🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗥𝗼𝗯𝗼𝘁 𝗡𝗼𝘁𝗵𝗶𝗻𝗴 🔇\n🚫 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 😐 ...**")
     else:
         queues.task_done(chat_id)
         

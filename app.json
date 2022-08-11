@@ -27,7 +27,7 @@
         "BOT_IMAGE": {
             "description": "𝗕𝗼𝘁 𝗜𝗺𝗮𝗴𝗲 𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹 𝗟𝗶𝗻𝗸",
             "required": true,
-            "value": "https://telegra.ph/file/1e5cdbbfa3b705326db7d.jpg"
+            "value": "https://te.legra.ph/file/1a600ff2a12b3e15cc708.jpg"
         },
         "BOT_NAME": {
             "description": "𝗬𝗼𝘂𝗿 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲",

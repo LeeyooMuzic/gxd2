@@ -32,7 +32,7 @@
         "BOT_NAME": {
             "description": "𝗬𝗼𝘂𝗿 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲",
             "required": true,
-            "value": "Honey Music"
+            "value": "BhanumathiBot"
         },
         "BOT_TOKEN": {
             "description": "𝗚𝗲𝘁 𝗕𝗼𝘁 𝗧𝗼𝗸𝗲𝗻 𝗢𝗳 𝗬𝗼𝘂𝗿 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗙𝗿𝗼𝗺 𝗕𝗼𝘁𝗙𝗮𝘁𝗵𝗲𝗿",
@@ -41,7 +41,7 @@
         "BOT_USERNAME": {
             "description": "𝗬𝗼𝘂𝗿 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗨𝘀𝗲𝗿𝗡𝗮𝗺𝗲 (𝗪𝗶𝘁𝗵𝗼𝘂𝘁 '@')",
             "required": true,
-            "value": "Honey_Music_Robot"
+            "value": "BhanumathiBot"
         },
         "DURATION_LIMIT": {
             "description": "𝗦𝗲𝘁 𝗠𝗮𝘅𝗶𝗺𝘂𝗺 𝗠𝘂𝘀𝗶𝗰 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻 𝗟𝗶𝗺𝗶𝘁 (𝗠𝗶𝗻𝘂𝘁𝗲𝘀) 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁",
@@ -76,7 +76,7 @@
         "SUPPORT_GROUP": {
             "description": "𝗬𝗼𝘂𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗚𝗿𝗼𝘂𝗽 𝗙𝘂𝗹𝗹 𝗟𝗶𝗻𝗸",
             "required": true,
-            "value": "https://t.me/telugulittleworld"
+            "value": "https://t.me/Groot_Feelings"
         },
         "UPDATES_CHANNEL": {
             "description": "𝗬𝗼𝘂𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗙𝘂𝗹𝗹 𝗟𝗶𝗻𝗸",

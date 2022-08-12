@@ -3,7 +3,7 @@
     "logo": "https://te.legra.ph/file/700b6db739b57216a771d.jpg",
     "description": "🌱 𝗔𝗻 𝗮𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹𝗹 𝗮𝗻𝗱 𝗦𝘂𝗽𝗲𝗿𝗳𝗮𝘀𝘁 𝗠𝘂𝘀𝗶𝗰 𝗣𝗹𝗮𝘆𝗲𝗿 𝗙𝗼𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗚𝗿𝗼𝘂𝗽 𝗩𝗖.",
     "keywords": ["bgtxmusicbot", "voice chat", "telegram"],
-    "repository": "https://github.com/Pakeraja/bgtxmusicbot",
+    "repository": "https://github.com/GMN630/GrootMusicBot",
     "stack": "container",
     "env": {
         "API_HASH": {

@@ -2,7 +2,7 @@
 
 # 🇬𝗿𝗼𝗼𝘁🇲𝘂𝘀𝗶𝗰🇧𝗼𝘁 
 
-<p align="center"><a href="https://t.me/mynameisgroot"><img src="https://te.legra.ph/file/700b6db739b57216a771d.jpg"></a></p>
+<p align="center"><a href="https://t.me/mynameisgroot"><img src="https://te.legra.ph/file/1a600ff2a12b3e15cc708.jpg"></a></p>
 
 ## Telegram 😇
 

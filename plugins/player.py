@@ -253,7 +253,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 😎",
-                            url=f"https://t.me/rjbr0")
+                            url=f"https://t.me/Groot_Feelings")
                    
                 ]
             ]
@@ -283,7 +283,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 😎",
-                            url=f"https://t.me/rjbr0")
+                            url=f"https://t.me/Groot_Feelings")
                    
                 ]
             ]
@@ -390,7 +390,7 @@ async def play(_, message: Message):
         await message.reply_photo(
             photo="final.png",
             reply_markup=keyboard,
-            caption="**🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗠𝘂𝘀𝗶𝗰 𝗥𝗼𝗯𝗼𝘁 𝗡𝗼𝘄 💞\n🔊 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗢𝗽 🥀 ...**".format(),
+            caption="**🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 𝗠𝘂𝘀𝗶𝗰 𝗥𝗼𝗯𝗼𝘁 𝗡𝗼𝘄\n🔊 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗢𝗽 🥀 ...**".format(),
            )
 
     os.remove("final.png")
@@ -475,4 +475,4 @@ async def update_admin(client, message):
     for u in new_ads:
         new_admins.append(u.user.id)
     a[message.chat.id] = new_admins
-    await message.reply_text("** ✌️ 𝐑𝐞𝐥𝐨𝐚𝐝𝐞𝐝 🐷 ...**")
+    await message.reply_text("** ✌️ 𝗥𝗲𝗹𝗼𝗮𝗱𝗲𝗱 🐷 ...**")

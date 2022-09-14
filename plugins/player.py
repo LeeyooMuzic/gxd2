@@ -147,18 +147,18 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "** 😎 𝗜𝗮𝗺 𝗥𝗲𝗮𝗱𝘆 𝗧𝗼 𝗣𝗹𝗮𝘆 😎 ... 𝗨𝘀𝗲 📢 /play, .play, !play, play, @, #, $ **")
+                        message.chat.id, "** 😎 𝗜𝗮𝗺 𝗥𝗲𝗮𝗱𝘆 𝗧𝗼 𝗣𝗹𝗮𝘆 😎 ... 𝗨𝘀𝗲 𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀 /play, .play, !play, play, @play, #play, $play **")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"**🥀 𝗣𝗹𝗲𝗮𝘀𝗲 𝗠𝗮𝗻𝘂𝗮𝗹𝗹𝘆 𝗔𝗱𝗱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 [𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁](t.me/{ASSISTANT_USERNAME}) 🎸 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 𝗢𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗧𝗼 [𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 ](https://t.me/{OWNER_USERNAME}) ✨ **")
+                        f"**🥀 𝗣𝗹𝗲𝗮𝘀𝗲 𝗨𝗻𝗕𝗮𝗻 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 [𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁](t.me/{ASSISTANT_USERNAME}) 🎸 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 𝗢𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗧𝗼 [𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 ](https://t.me/{OWNER_USERNAME}) ✨ **")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"**🥀 𝗣𝗹𝗲𝗮𝘀𝗲 𝗠𝗮𝗻𝘂𝗮𝗹𝗹𝘆 𝗔𝗱𝗱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 [𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁](t.me/{ASSISTANT_USERNAME}) 🎸 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 𝗢𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗧𝗼 [𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 ](https://t.me/{OWNER_USERNAME}) ✨ **")
+            f"**🥀 𝗣𝗹𝗲𝗮𝘀𝗲 𝗨𝗻𝗕𝗮𝗻 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 [𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁](t.me/{ASSISTANT_USERNAME}) 🎸 𝗜𝗻 𝗧𝗵𝗶𝘀 𝗚𝗿𝗼𝘂𝗽 𝗢𝗿 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗧𝗼 [𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 ](https://t.me/{OWNER_USERNAME}) ✨ **")
         return
     
     audio = (

@@ -14,16 +14,16 @@ async def broadcast(_, message: Message):
     if message.from_user.id not in SUDO_USERS:
         return
     else:
-        wtf = await message.reply("**`🥀 𝐒𝐭𝐚𝐫𝐭𝐢𝐧𝐠 𝐁𝐠𝐭 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭 ...`**")
+        wtf = await message.reply("**`🥀 𝗦𝘁𝗮𝗿𝘁𝗶𝗻𝗴 𝗚𝗿𝗼𝗼𝘁 𝗠𝘂𝘀𝗶𝗰 𝗕𝗿𝗼𝗮𝗱𝗰𝗮𝘀𝘁...`**")
         if not message.reply_to_message:
-            await wtf.edit("**🎸 𝑷𝒍𝒆𝒂𝒔𝒆 𝑹𝒆𝒑𝒍𝒚 𝑻𝒐 𝒂 𝑴𝒆𝒔𝒔𝒂𝒈𝒆 ...**")
+            await wtf.edit("**🎸 𝗣𝗹𝗲𝗮𝘀𝗲 𝗥𝗲𝗽𝗹𝘆 𝗧𝗼 𝗔 𝗠𝗲𝘀𝘀𝗮𝗴𝗲...**")
             return
         lmao = message.reply_to_message.text
         async for dialog in aditya.iter_dialogs():
             try:
                 await aditya.send_message(dialog.chat.id, lmao)
                 sent = sent+1
-                await wtf.edit(f"**🥀 𝐁𝐫𝐨𝐚𝐝𝐜𝐚𝐬𝐭𝐢𝐧𝐠 ...** \n\n**✔️ 𝐒𝐞𝐧𝐭 𝐓𝐨:** `{sent}` **𝐂𝐡𝐚𝐭𝐬** \n**❌ 𝐅𝐚𝐢𝐥𝐞𝐝 𝐈𝐧:** `{failed}` **𝐂𝐡𝐚𝐭𝐬**")
+                await wtf.edit(f"**🥀 𝗕𝗿𝗼𝗮𝗱𝗰𝗮𝘀𝘁𝗶𝗻𝗴 ...** \n\n**✔️ 𝗦𝗲𝗻𝘁 𝗧𝗼:** `{sent}` **𝗖𝗵𝗮𝘁𝘀** \n**❌ 𝗙𝗮𝗶𝗹𝗲𝗱 𝗜𝗻:** `{failed}` **𝗖𝗵𝗮𝘁𝘀**")
                 await asyncio.sleep(3)
             except:
                 failed=failed+1

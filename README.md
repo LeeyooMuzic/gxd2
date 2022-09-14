@@ -37,3 +37,6 @@
 
 ### Owner Of This Repository
 [![Iam Groot](https://telegra.ph/file/b9046390e87cbc3c5b6f0.jpg)](https://t.me/rjbr0)
+
+# Updated Repo Gban add
+https://github.com/IAMBIKASHHALDER/bgtxmusicbot

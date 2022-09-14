@@ -36,16 +36,26 @@ async def start_(client: Client, message: Message):
     await message.reply_photo(
         photo=f"{BOT_IMAGE}",
         caption=f"""**
-😇 𝗛𝗲𝗹𝗹𝗼.𝗜𝗮𝗺 𝗕𝗵𝗮𝗻𝘂𝗺𝗮𝘁𝗵𝗶💃 𝗦𝘂𝗽𝗲𝗿𝗳𝗮𝘀𝘁 𝗛𝗶𝗴𝗵 𝗤𝘂𝗮𝗹𝗶𝘁𝘆
- 𝗡𝗼 𝗟𝗮𝗴 𝗩𝗖 𝗠𝘂𝘀𝗶𝗰 𝗣𝗹𝗮𝘆𝗲𝗿 𝗕𝗼𝘁.
-
-[🌺 𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗣𝗮𝗰𝗸𝘀 🌺](https://t.me/groot_network)
-[🥀 𝗙𝘂𝗻𝗻𝘆 𝗚𝗶𝗳𝘀 🥀](https://t.me/RJbr0)
-[🌸 𝗧𝗲𝗹𝘂𝗴𝘂 𝗚𝗿𝗼𝘂𝗽𝘀 🌸](https://t.me/telugulittleworld)
-[😇 𝗢𝘄𝗻𝗲𝗿 😇](https://t.me/mynameisgroot)
-
-😒 𝗝𝘂𝘀𝘁 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝗮𝗻𝗱 
-𝗘𝗻𝗷𝗼𝘆 𝗦𝘂𝗽𝗲𝗿 𝗛𝗶𝗴𝗵 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗠𝘂𝘀𝗶𝗰.**""",
+┏━❥❥━────➸➽♦️❥❥━────➸➽
+┃
+┃😇 𝗛𝗶.! 𝗧𝗵𝗶𝘀 𝗜𝘀 𝗚-𝗡𝗘𝗧𝗪𝗢𝗥𝗞 𝗠𝘂𝘀𝗶𝗰
+┃ 
+┃➪ 𝗔 𝗦𝘂𝗽𝗲𝗿𝗙𝗮𝘀𝘁 𝗛𝗶𝗴𝗵 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 
+┃    𝗔𝗻𝗱 𝗪𝗶𝘁𝗵 𝗢𝘂𝘁 𝗟𝗮𝗴 
+┃ 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹 𝗠𝘂𝘀𝗶𝗰 𝗣𝗹𝗮𝘆𝗲𝗿 𝗕𝗼𝘁.
+┃ 
+╟◈ [💞 𝗦𝘁𝗶𝗰𝗸𝗲𝗿 𝗣𝗮𝗰𝗸𝘀](https://t.me/groot_network)
+┃ 
+╟◈ [💞 𝗙𝘂𝗻𝗻𝘆 𝗚𝗶𝗳𝘀](https://t.me/RJbr0)
+┃ 
+╟◈ [💞 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸](https://t.me/Groot_Feelings)
+┃ 
+╟◈ [💞 𝗢𝘄𝗻𝗲𝗿](https://t.me/MyNameIsGroot)
+┃ 
+┃➪ 𝗝𝘂𝘀𝘁 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝗮𝗻𝗱 
+┃ 𝗘𝗻𝗷𝗼𝘆 𝗦𝘂𝗽𝗲𝗿 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗠𝘂𝘀𝗶𝗰.
+┃  
+┗━❥❥━────➸➽♦️❥❥━────➸➽**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [

@@ -38,5 +38,5 @@
 ### Owner Of This Repository
 [![Iam Groot](https://telegra.ph/file/b9046390e87cbc3c5b6f0.jpg)](https://t.me/rjbr0)
 
-# Updated Repo Gcost add
+# 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗥𝗲𝗽𝗼
 https://github.com/IAMBIKASHHALDER/bgtxmusicbot

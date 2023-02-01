@@ -27,7 +27,7 @@
         "BOT_IMAGE": {
             "description": "𝗕𝗼𝘁 𝗜𝗺𝗮𝗴𝗲 𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹 𝗟𝗶𝗻𝗸",
             "required": true,
-            "value": "https://te.legra.ph/file/1a600ff2a12b3e15cc708.jpg"
+            "value": "https://te.legra.ph/file/0a87707652242961c79f2.jpg"
         },
         "BOT_NAME": {
             "description": "𝗬𝗼𝘂𝗿 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲",
@@ -61,7 +61,7 @@
         "SOURCE_CODE": {
             "description": "𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 𝗟𝗶𝗻𝗸 𝗙𝗼𝗿 𝗙𝘂𝘁𝘂𝗿𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀",
             "required": true,
-            "value": "https://t.me/groot_network"
+            "value": "https://t.me/RJbr0"
         },
         "STRING_SESSION": {
             "description": "𝗬𝗼𝘂𝗿 𝗣𝗿𝗼𝗴𝗿𝗮𝗺 𝗦𝘁𝗿𝗶𝗻𝗴 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 (𝗚𝗲𝘁 𝗶𝘁 𝗙𝗿𝗼𝗺 𝗥𝗲𝗽𝗹𝗶𝘁)",

@@ -1,8 +1,8 @@
 {
     "name": "🇬𝗿𝗼𝗼𝘁🇲𝘂𝘀𝗶𝗰🇧𝗼𝘁",
-    "logo": "https://te.legra.ph/file/700b6db739b57216a771d.jpg",
+    "logo": "https://te.legra.ph/file/43eb81b7a99092f9a3197.jpg",
     "description": "🌱 𝗔𝗻 𝗮𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹𝗹 𝗮𝗻𝗱 𝗦𝘂𝗽𝗲𝗿𝗳𝗮𝘀𝘁 𝗠𝘂𝘀𝗶𝗰 𝗣𝗹𝗮𝘆𝗲𝗿 𝗙𝗼𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗚𝗿𝗼𝘂𝗽 𝗩𝗖.",
-    "keywords": ["bgtxmusicbot", "voice chat", "telegram"],
+    "keywords": ["grootmusicbot", "voice chat", "telegram"],
     "repository": "https://github.com/GMN630/GrootMusicBot",
     "stack": "container",
     "env": {
@@ -32,7 +32,7 @@
         "BOT_NAME": {
             "description": "𝗬𝗼𝘂𝗿 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲",
             "required": true,
-            "value": "BhanumathiBot"
+            "value": "Honey RoBot"
         },
         "BOT_TOKEN": {
             "description": "𝗚𝗲𝘁 𝗕𝗼𝘁 𝗧𝗼𝗸𝗲𝗻 𝗢𝗳 𝗬𝗼𝘂𝗿 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗙𝗿𝗼𝗺 𝗕𝗼𝘁𝗙𝗮𝘁𝗵𝗲𝗿",
@@ -41,7 +41,7 @@
         "BOT_USERNAME": {
             "description": "𝗬𝗼𝘂𝗿 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗨𝘀𝗲𝗿𝗡𝗮𝗺𝗲 (𝗪𝗶𝘁𝗵𝗼𝘂𝘁 '@')",
             "required": true,
-            "value": "BhanumathiBot"
+            "value": "Honey_Music_Robot"
         },
         "DURATION_LIMIT": {
             "description": "𝗦𝗲𝘁 𝗠𝗮𝘅𝗶𝗺𝘂𝗺 𝗠𝘂𝘀𝗶𝗰 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻 𝗟𝗶𝗺𝗶𝘁 (𝗠𝗶𝗻𝘂𝘁𝗲𝘀) 𝗬𝗼𝘂 𝗪𝗮𝗻𝘁",
@@ -51,7 +51,7 @@
         "OWNER_NAME": {
             "description": "𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 𝗡𝗮𝗺𝗲",
             "required": true,
-            "value": "𝗜𝗮𝗺 𝗚𝗿𝗼𝗼𝘁"
+            "value": "𝗦𝗔𝗥𝗞𝗔𝗥"
         },
         "OWNER_USERNAME": {
             "description": "𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 𝗨𝘀𝗲𝗿𝗡𝗮𝗺𝗲",
@@ -76,7 +76,7 @@
         "SUPPORT_GROUP": {
             "description": "𝗬𝗼𝘂𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗚𝗿𝗼𝘂𝗽 𝗙𝘂𝗹𝗹 𝗟𝗶𝗻𝗸",
             "required": true,
-            "value": "https://t.me/Groot_Feelings"
+            "value": "https://t.me/TeluguFriendsClub"
         },
         "UPDATES_CHANNEL": {
             "description": "𝗬𝗼𝘂𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗙𝘂𝗹𝗹 𝗟𝗶𝗻𝗸",

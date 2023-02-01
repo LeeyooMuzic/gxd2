@@ -121,7 +121,7 @@ async def play(_, message: Message):
     global que
     global useer
     await message.delete()
-    lel = await message.reply("**🔎 𝗦𝗲𝗮𝗿𝗰𝗵𝗶𝗻𝗴 ...**")
+    lel = await message.reply("**🌱 𝗦𝗲𝗮𝗿𝗰𝗵𝗶𝗻𝗴 ...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -171,7 +171,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"**😊 𝗣𝗹𝗮𝘆 𝗠𝘂𝘀𝗶𝗰 𝗟𝗲𝘀𝘀🌱\n𝗧𝗵𝗮𝗻{DURATION_LIMIT} 💞 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
+                f"**😊 𝗣𝗹𝗮𝘆 𝗠𝘂𝘀𝗶𝗰 𝗟𝗲𝘀𝘀🌱\n𝗧𝗵𝗮𝗻{DURATION_LIMIT} 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
             )
 
         file_name = get_file_name(audio)
@@ -200,7 +200,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 😎",
-                            url=f"https://t.me/Groot_Feelings")
+                            url=f"https://t.me/Rjbr0")
                    
                 ]
             ]
@@ -253,7 +253,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 😎",
-                            url=f"https://t.me/Groot_Feelings")
+                            url=f"https://t.me/telugufriendsclub")
                    
                 ]
             ]
@@ -261,7 +261,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/1a600ff2a12b3e15cc708.jpg"
+            thumb_name = "https://te.legra.ph/file/43eb81b7a99092f9a3197.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -283,7 +283,7 @@ async def play(_, message: Message):
                [
                         InlineKeyboardButton(
                             text="🌱 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸 😎",
-                            url=f"https://t.me/Groot_Feelings")
+                            url=f"https://t.me/telugu_prajalu")
                    
                 ]
             ]
@@ -291,7 +291,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**🌱 𝗣𝗹𝗮𝘆 𝗠𝘂𝘀𝗶𝗰 𝗟𝗲𝘀𝘀 😏\n 𝗧𝗵𝗮𝗻 {DURATION_LIMIT} 💞 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
+                f"**🌱 𝗣𝗹𝗮𝘆 𝗠𝘂𝘀𝗶𝗰 𝗟𝗲𝘀𝘀 😏\n 𝗧𝗵𝗮𝗻 {DURATION_LIMIT} 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -300,7 +300,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "**😒 𝗚𝗶𝘃𝗲 𝗠𝘂𝘀𝗶𝗰 𝗡𝗮𝗺𝗲 😍\n💞 𝗧𝗼 𝗣𝗹𝗮𝘆 𝗦𝗼𝗻𝗴 🌷...**"
+                "**😒 𝗚𝗶𝘃𝗲 𝗠𝘂𝘀𝗶𝗰 𝗡𝗮𝗺𝗲 😍\n 𝗧𝗼 𝗣𝗹𝗮𝘆 𝗦𝗼𝗻𝗴 🌷...**"
             )
         await lel.edit("**🔄 𝗣𝗿𝗼𝗰𝗲𝘀𝘀𝗶𝗻𝗴 ...**")
         query = message.text.split(None, 1)[1]
@@ -359,7 +359,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"**🌱 𝗣𝗹𝗮𝘆 𝗠𝘂𝘀𝗶𝗰 𝗟𝗲𝘀𝘀 \n🤟 𝗧𝗵𝗮𝗻⚡️ {DURATION_LIMIT} 💞 𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
+                f"**🌱 𝗣𝗹𝗮𝘆 𝗠𝘂𝘀𝗶𝗰 𝗟𝗲𝘀𝘀 \n 𝗧𝗵𝗮𝗻⚡️ {DURATION_LIMIT}  𝗠𝗶𝗻𝘂𝘁𝗲 ...**"
             )
             return
         requested_by = message.from_user.first_name
@@ -373,7 +373,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)
         await message.reply_photo(
             photo="final.png",
-            caption="**😒 𝗬𝗼𝘂𝗿 𝗦𝗼𝗻𝗴 𝗤𝘂𝗲𝘂𝗲𝗱❗️\n𝗔𝘁 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 » `{}` 🌷 ...**".format(position),
+            caption="**😒 𝗬𝗼𝘂𝗿 𝗦𝗼𝗻𝗴 𝗤𝘂𝗲𝘂𝗲𝗱 \n𝗔𝘁 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 » `{}`  ...**".format(position),
             reply_markup=keyboard,
         )
     else:

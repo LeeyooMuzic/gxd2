@@ -1,10 +1,10 @@
-future
-git+https://github.com/kaalmous/downloader@kaal
 aiofiles
 aiohttp
 asyncio
 dnspython
 ffmpeg-python
+future
+git+https://github.com/kaalmous/downloader@kaal
 gitpython
 hachoir
 heroku3

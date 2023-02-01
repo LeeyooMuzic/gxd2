@@ -48,9 +48,9 @@ async def start_(client: Client, message: Message):
 ┃ 
 ╟◈ [💞 𝗙𝘂𝗻𝗻𝘆 𝗚𝗶𝗳𝘀](https://t.me/RJbr0)
 ┃ 
-╟◈ [💞 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸](https://t.me/Groot_Feelings)
+╟◈ [💞 𝗚-𝗡𝗲𝘁𝘄𝗼𝗿𝗸](https://t.me/TeluguFriendsClub)
 ┃ 
-╟◈ [💞 𝗢𝘄𝗻𝗲𝗿](https://t.me/MyNameIsGroot)
+╟◈ [💞 𝗢𝘄𝗻𝗲𝗿](https://t.me/Rjbr0)
 ┃ 
 ┃➪ 𝗝𝘂𝘀𝘁 𝗔𝗱𝗱 𝗠𝗲 𝗧𝗼 𝗬𝗼𝘂𝗿 𝗚𝗿𝗼𝘂𝗽 𝗮𝗻𝗱 
 ┃ 𝗘𝗻𝗷𝗼𝘆 𝗦𝘂𝗽𝗲𝗿 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗠𝘂𝘀𝗶𝗰.
@@ -84,16 +84,16 @@ async def start(client: Client, message: Message):
     )
 
 
-@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "bikash", "source"]) & filters.group & ~filters.edited)
+@Client.on_message(commandpro(["repo", "#repo", "@repo", "/repo", "groot", "source"]) & filters.group & ~filters.edited)
 async def help(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://te.legra.ph/file/99d0261f0aa5512ad6753.jpg",
+        photo=f"https://te.legra.ph/file/43eb81b7a99092f9a3197.jpg",
         caption=f"""""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "😒 𝗜𝘁'𝘀 𝗠𝗲 ", url=f"(https://t.me/Groot_Network)")
+                        "😒 𝗜𝘁'𝘀 𝗠𝗲 ", url=f"(https://t.me/rjbr0)")
                 ]
             ]
         ),

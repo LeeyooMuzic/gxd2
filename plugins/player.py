@@ -29,6 +29,7 @@ from PIL import Image, ImageFont, ImageDraw
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream import InputStream
 from pytgcalls.types.input_stream import InputAudioStream
+from pytgcalls.types.input_stream.quality import HighQualityAudio
 
 # 𝗜𝗻𝘁𝗲𝗿𝗻𝗮𝗹 𝗠𝗼𝗱𝘂𝗹𝗲𝘀
 chat_id = None
@@ -382,6 +383,7 @@ async def play(_, message: Message):
                 InputStream(
                     InputAudioStream(
                         file_path,
+                        HighQualityAudio(),
                     ),
                 ),
                 stream_type=StreamType().local_stream,

@@ -52,7 +52,7 @@ async def start_(client: Client, message: Message):
            [[
            InlineKeyboardButton("🌱❰𝗚𝗿𝗼𝗼𝘁 𝗡𝗲𝘁𝘄𝗼𝗿𝗸❱🌱", url=f"https://t.me/Groot_Network"),
            ],[
-           InlineKeyboardButton("🌸❰𝗨𝗽𝗱𝗮𝘁𝗲𝘀❱", url="https://t.me/RJbr0"),  
+           InlineKeyboardButton("🏵️❰𝗨𝗽𝗱𝗮𝘁𝗲𝘀❱", url="https://t.me/RJbr0"),  
            InlineKeyboardButton("❰𝗢𝘄𝗻𝗲𝗿❱🌺", url="https://t.me/SarkarRobot"),
            ],[
            InlineKeyboardButton("🥀❰𝗦𝗼𝘂𝗿𝗰𝗲 𝗖𝗼𝗱𝗲❱🥀", url="https://t.me/Telugu_Prajalu")

@@ -76,7 +76,7 @@
         "SUPPORT_GROUP": {
             "description": "𝗬𝗼𝘂𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗚𝗿𝗼𝘂𝗽 𝗙𝘂𝗹𝗹 𝗟𝗶𝗻𝗸",
             "required": true,
-            "value": "https://t.me/TeluguFriendsClub"
+            "value": "https://t.me/Telugu_prajalu"
         },
         "UPDATES_CHANNEL": {
             "description": "𝗬𝗼𝘂𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 𝗙𝘂𝗹𝗹 𝗟𝗶𝗻𝗸",

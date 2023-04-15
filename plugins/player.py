@@ -1,4 +1,4 @@
-# Bikash Aditya // @BikashHalder
+# Groot Music // @Groot_Network
 import os
 import aiofiles
 import aiohttp
@@ -11,20 +11,20 @@ from typing import Callable
 from pyrogram import Client, filters
 from pyrogram.types import Message, Voice, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.errors import UserAlreadyParticipant
-from modules.cache.admins import set
-from modules.clientbot import clientbot, queues
-from modules.clientbot.clientbot import client as USER
-from modules.helpers.admins import get_administrators
+from grootxd.cache.admins import set
+from grootxd.clientbot import clientbot, queues
+from grootxd.clientbot.clientbot import client as USER
+from grootxd.helpers.admins import get_administrators
 from youtube_search import YoutubeSearch
-from modules import converter
-from modules.downloaders import youtube
-from modules.config import ASSISTANT_USERNAME, DURATION_LIMIT, que, OWNER_USERNAME, SUDO_USERS, SUPPORT_GROUP, UPDATES_CHANNEL, PROFILE_CHANNEL
-from modules.cache.admins import admins as a
-from modules.helpers.filters import command, other_filters
-from modules.helpers.command import commandpro
-from modules.helpers.decorators import errors, authorized_users_only
-from modules.helpers.errors import DurationLimitError
-from modules.helpers.gets import get_url, get_file_name
+from grootxd import converter
+from grootxd.downloaders import youtube
+from grootxd.config import ASSISTANT_USERNAME, DURATION_LIMIT, que, OWNER_USERNAME, SUDO_USERS, SUPPORT_GROUP, UPDATES_CHANNEL, PROFILE_CHANNEL
+from grootxd.cache.admins import admins as a
+from grootxd.helpers.filters import command, other_filters
+from grootxd.helpers.command import commandpro
+from grootxd.helpers.decorators import errors, authorized_users_only
+from grootxd.helpers.errors import DurationLimitError
+from grootxd.helpers.gets import get_url, get_file_name
 from PIL import Image, ImageFont, ImageDraw
 from pytgcalls import StreamType
 from pytgcalls.types.input_stream import InputStream
@@ -130,7 +130,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "Bikash_Player"
+        user.first_name = "Honey_Music_Player"
     usar = user
     wew = usar.id
     try:
@@ -177,7 +177,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/1a600ff2a12b3e15cc708.jpg"
+        thumb_name = "https://te.legra.ph/file/43eb81b7a99092f9a3197.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"

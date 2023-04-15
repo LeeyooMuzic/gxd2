@@ -1,9 +1,9 @@
 import asyncio
 from time import time
 from datetime import datetime
-from modules.config import BOT_IMAGE, BOT_USERNAME, OWNER_USERNAME, UPDATES_CHANNEL, SUPPORT_GROUP, SOURCE_CODE
-from modules.helpers.filters import command
-from modules.helpers.command import commandpro
+from grootxd.config import BOT_IMAGE, BOT_USERNAME, OWNER_USERNAME, UPDATES_CHANNEL, SUPPORT_GROUP, SOURCE_CODE
+from grootxd.helpers.filters import command
+from grootxd.helpers.command import commandpro
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
@@ -55,7 +55,7 @@ async def start_(client: Client, message: Message):
            InlineKeyboardButton("🌺❰𝗨𝗽𝗱𝗮𝘁𝗲𝘀❱", url="https://t.me/RJbr0"),  
            InlineKeyboardButton("❰𝗢𝘄𝗻𝗲𝗿❱💐", url="https://t.me/SarkarRobot"),
            ],[
-           InlineKeyboardButton("🥀❰𝗦𝗼𝘂𝗿𝗰𝗲 𝗖𝗼𝗱𝗲❱🥀", url="https://t.me/Telugu_Prajalu")
+           InlineKeyboardButton("🥀❰𝗦𝗼𝘂𝗿𝗰𝗲 𝗖𝗼𝗱𝗲❱🥀", url="https://github.com/LeeyooMuzicBot/PriyaMusic")
            ]]
         ),
     )

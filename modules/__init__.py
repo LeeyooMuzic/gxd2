@@ -1,8 +1,8 @@
 from pyrogram import idle
-from modules.clientbot import run
+from grootxd.clientbot import run
 from pyrogram import Client as Bot
-from modules.clientbot.clientbot import client
-from modules.config import API_ID, API_HASH, BOT_TOKEN
+from grootxd.clientbot.clientbot import client
+from grootxd.config import API_ID, API_HASH, BOT_TOKEN
 
     
 bot = Bot(

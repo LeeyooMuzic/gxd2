@@ -1,9 +1,9 @@
 {
-    "name": "🇬𝗿𝗼𝗼𝘁🇲𝘂𝘀𝗶𝗰🇧𝗼𝘁",
+    "name": "GMBXD2",
     "logo": "https://te.legra.ph/file/43eb81b7a99092f9a3197.jpg",
     "description": "🌱 𝗔𝗻 𝗮𝗱𝘃𝗮𝗻𝗰𝗲𝗱 𝗣𝗼𝘄𝗲𝗿𝗳𝘂𝗹𝗹 𝗮𝗻𝗱 𝗦𝘂𝗽𝗲𝗿𝗳𝗮𝘀𝘁 𝗠𝘂𝘀𝗶𝗰 𝗣𝗹𝗮𝘆𝗲𝗿 𝗙𝗼𝗿 𝗧𝗲𝗹𝗲𝗴𝗿𝗮𝗺 𝗚𝗿𝗼𝘂𝗽 𝗩𝗖.",
     "keywords": ["grootmusicbot", "voice chat", "telegram"],
-    "repository": "https://github.com/GMN630/GrootMusicBot",
+    "repository": "",
     "stack": "container",
     "env": {
         "API_HASH": {
@@ -27,7 +27,7 @@
         "BOT_IMAGE": {
             "description": "𝗕𝗼𝘁 𝗜𝗺𝗮𝗴𝗲 𝗧𝗵𝘂𝗺𝗯𝗻𝗮𝗶𝗹 𝗟𝗶𝗻𝗸",
             "required": true,
-            "value": "https://te.legra.ph/file/0a87707652242961c79f2.jpg"
+            "value": "https://te.legra.ph/file/43eb81b7a99092f9a3197.jpg"
         },
         "BOT_NAME": {
             "description": "𝗬𝗼𝘂𝗿 𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲",
@@ -56,12 +56,12 @@
         "OWNER_USERNAME": {
             "description": "𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗢𝘄𝗻𝗲𝗿 𝗨𝘀𝗲𝗿𝗡𝗮𝗺𝗲",
             "required": true,
-            "value": "mynameisgroot"
+            "value": "Rjbr0"
         },
         "SOURCE_CODE": {
             "description": "𝗠𝘂𝘀𝗶𝗰 𝗕𝗼𝘁 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 𝗟𝗶𝗻𝗸 𝗙𝗼𝗿 𝗙𝘂𝘁𝘂𝗿𝗲 𝗨𝗽𝗱𝗮𝘁𝗲𝘀",
             "required": true,
-            "value": "https://t.me/RJbr0"
+            "value": "https://github.com/LeeyooMuzicBot/PriyaMusic"
         },
         "STRING_SESSION": {
             "description": "𝗬𝗼𝘂𝗿 𝗣𝗿𝗼𝗴𝗿𝗮𝗺 𝗦𝘁𝗿𝗶𝗻𝗴 𝗦𝗲𝘀𝘀𝗶𝗼𝗻 (𝗚𝗲𝘁 𝗶𝘁 𝗙𝗿𝗼𝗺 𝗥𝗲𝗽𝗹𝗶𝘁)",
@@ -70,7 +70,7 @@
         "SUDO_USERS": {
             "description": "𝗦𝘂𝗱𝗼 𝗨𝘀𝗲𝗿𝘀 𝗖𝗮𝗻 𝗖𝗼𝗻𝘁𝗿𝗼𝗹 𝗕𝗼𝘁 𝗪𝗶𝘁𝗵𝗼𝘂𝘁 𝗔𝗱𝗺𝗶𝗻 𝗣𝗲𝗿𝗺𝗶𝘀𝘀𝗶𝗼𝗻",
             "required": true,
-            "value": "5027740392"
+            "value": "5056205033"
             
         },
         "SUPPORT_GROUP": {

@@ -1,11 +1,11 @@
-# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 (C) 2022 𝑩𝒚 @BikashHalder @𝑨𝒅𝒊𝒕𝒚𝒂𝑯𝒂𝒍𝒅𝒆𝒓
+# 𝑪𝒐𝒑𝒚𝒓𝒊𝒈𝒉𝒕 (C) 2023 𝑩𝒚 @Groot_Network @RJbr0
 
 import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Dialog, Chat, Message
 from pyrogram.errors import UserAlreadyParticipant
-from modules.clientbot.clientbot import client as aditya
-from modules.config import SUDO_USERS
+from grootxd.clientbot.clientbot import client as aditya
+from grootxd.config import SUDO_USERS
 
 @Client.on_message(filters.command(["gcast", "grootcast", "broadcast"]))
 async def broadcast(_, message: Message):
